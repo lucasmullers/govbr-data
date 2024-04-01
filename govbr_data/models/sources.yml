@@ -1,0 +1,7 @@
+sources:
+  - name: landing_tse
+    meta:
+      external_location: "s3://govbr-data/LANDING/TSE/{identifier}/*.csv"
+    tables:
+      - name: candidatos
+        identifier: CANDIDATOS
