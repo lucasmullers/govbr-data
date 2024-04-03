@@ -17,7 +17,6 @@
 
 	// Configure the mounts in the container.
 	"mounts": [
-		"source=${localEnv:HOME}/.config/gcloud,target=/root/.config/gcloud,type=bind",
 		"source=${localEnv:HOME}/.aws,target=/root/.aws,type=bind"
 	],
 
