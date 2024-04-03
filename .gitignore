@@ -168,4 +168,7 @@ cython_debug/
 .DS_Store
 
 
-* .db
+*.db
+*.zip
+*tmp*
+*.csv
