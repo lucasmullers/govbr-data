@@ -1,7 +1,8 @@
 sources:
   - name: landing_tse
     meta:
-      external_location: "s3://govbr-data/LANDING/TSE/{identifier}/*.csv"
+      external_location: "read_csv('s3://govbr-data/LANDING/TSE/{identifier}/*.csv', delim=';', header='true')"
     tables:
       - name: candidatos
         identifier: CANDIDATOS
+        

@@ -8,8 +8,7 @@ govbr_data:
         - httpfs
         - parquet
         - iceberg
-      plugins: 
-        - module: delta
+      external_root: "s3://govbr-data/"
       threads: 1
 
     prod:

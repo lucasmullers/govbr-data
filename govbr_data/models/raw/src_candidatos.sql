@@ -1,7 +1,7 @@
 {{ config(
     materialized='external',
-    plugin = 'delta',
-    location = 's3://govbr-data/RAW/TSE/CANDIDATOS/',
+    format = 'parquet',
+    location = 's3://govbr-data/RAW/TSE/CANDIDATOS/file.parquet',
     mode = "overwrite" 
 ) }}
 
